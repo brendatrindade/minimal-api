@@ -1,7 +1,7 @@
 namespace MinimalApi.Dominio.ModelViews;
 
-public struct Home
+public class Home
 {
-    public string Mensagem { get => "Bem vindo a API de veículos - Minimal API"; }
-    public string Doc { get => "/swagger"; }
+    public string Mensagem { get; } = "API de veículos - Minimal API";
+    public string Doc { get; } = "Acesse o Swagger UI adicionando /swagger ao final da rota";
 }

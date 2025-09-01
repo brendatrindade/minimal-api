@@ -1,6 +1,6 @@
 namespace MinimalApi.Dominio.ModelViews;
 
-public struct ErrosDeValidacao
+public class ErrosDeValidacao
 {
-    public List<string> Mensagens { get;set; }
+    public List<string> Mensagens { get; set; } = default!;
 }
